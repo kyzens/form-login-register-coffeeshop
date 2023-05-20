@@ -1,6 +1,6 @@
 # Form Login Register Coffee Shop
 
-Form login dan register Coffee Shop menggunakan HTML dan CSS.
+coffee shop login and register forms with a simple display using HTML CSS.
 
 
 ## Screenshots
