@@ -5,10 +5,10 @@ coffee shop login and register forms with a simple display using HTML CSS.
 
 ## Screenshots
 
-login.html
+#### login.html
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-register.html
+#### register.html
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 
