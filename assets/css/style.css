@@ -1,0 +1,138 @@
+body {
+    font-family: "Helvetica", sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    background-color: #FFF7D4;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #4C3D3D;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 0.5em 2em;
+    border: none;
+    border-radius: 1em;
+    color: #000;
+    background:#ffffff;
+    transition: .2s;
+    box-shadow: 0 0 .6em 0 rgba(76, 61, 61, .1);
+}
+
+.form-group {
+    margin-bottom: 1em;
+    overflow: hidden;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.2em;
+    color: #8b8b8b;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.form-control {
+    width: 100%;
+    border: 1px solid #cccccc;
+    border-radius: 0.3em;
+    padding: 0.8em;
+    box-sizing: border-box;
+}
+
+.form-control:focus {
+    outline-color: #FFD95A;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 0.6em 1.2em;
+    border: 1px solid #cccccc;
+    border-radius: 0.3em;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    margin-right: 0.5em;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-success {
+    border-color: #FFD95A;
+    background-color: #FFD95A;
+    color: #ffffff;
+}
+
+
+.btn-success:hover {
+    border-color: #d4b039;
+    background-color: #d4b039;
+    color: #ffffff;
+}
+
+.btn-danger {
+    border-color: #4C3D3D;
+    background-color: #4C3D3D;
+    color: #ffffff;
+}
+
+.btn-danger:hover {
+    border-color: #685e5e;
+    background-color: #685e5e;
+    color: #ffffff;
+}
+
+.bottom-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 2em;
+    }
+
+    .content {
+        position: initial;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+
+    form {
+        width: 80%;
+    }
+}
