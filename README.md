@@ -6,10 +6,10 @@ coffee shop login and register forms with a simple display using HTML CSS.
 ## Screenshots
 
 #### login.html
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://raw.githubusercontent.com/wayosu/form-login-register-coffeeshop/master/preview/login.png)
 
 #### register.html
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://raw.githubusercontent.com/wayosu/form-login-register-coffeeshop/master/preview/register.png)
 
 
 ## Authors
